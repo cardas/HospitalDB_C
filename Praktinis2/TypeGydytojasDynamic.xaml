@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="Praktinis2.TypeGydytojasDynamic"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Praktinis2"
+             mc:Ignorable="d" d:DesignWidth="800" Height="100">
+    <Grid Background="#FFF71425" Margin="10">
+        <Label x:Name="typeLabel" Content="Label" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top" Height="70" Width="635" FontSize="36" FontWeight="Bold"/>
+        <Button x:Name="typeButton" Content="" Background="White" Click="typeButton_Click" BorderBrush="#FF52DD2F" Foreground="{x:Null}" Opacity="0.1"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,31 @@
+﻿<Window x:Class="Praktinis2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Praktinis2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="297.6" Width="585.2">
+    <Grid x:Name="Login" Margin="0,0,3.6,0" Background="#FFB0A7A7">
+
+
+        <Image Source="white_lens_flare_png_1511295[1].png" Stretch="Fill"/>
+
+
+        <TextBox x:Name="TxtName" HorizontalAlignment="Left" Height="32" Margin="29,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="288"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="29,25,0,0" VerticalAlignment="Top" Width="288" HorizontalContentAlignment="Center" FontFamily="Verdana" FontSize="20" Background="#FFA53636"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="29,105,0,0" VerticalAlignment="Top" Width="288" HorizontalContentAlignment="Center" FontFamily="Verdana" FontSize="20" Background="#FFA53636"/>
+        <Button Content="Log In" HorizontalAlignment="Left" Margin="195,181,0,0" VerticalAlignment="Top" Width="122" Height="71" Click="Button_Click"/>
+        <TextBox x:Name="TxtPass" HorizontalAlignment="Left" Height="32" Margin="29,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="288"/>
+        <Button Content="Registration" HorizontalAlignment="Left" Margin="29,197,0,0" VerticalAlignment="Top" Width="161" Height="55" Click="Button_Click_1">
+            <Button.ContextMenu>
+                <ContextMenu/>
+            </Button.ContextMenu>
+        </Button>
+        <Image Margin="322,0,-0.4,0" Source="images[3].png" Stretch="Fill"/>
+
+    </Grid>
+
+
+
+</Window>

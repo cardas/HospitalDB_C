@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Praktinis2.ExceptionHelpers">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Backend\ExceptionHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Praktinis2.Person">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAQAgIAAAACEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Backend\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Praktinis2.Backend.PersonDB">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAAwAEACEAFAAwAFAAEABACAAAAAgAAQgA=</HashCode>
+      <FileName>Backend\PersonDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Praktinis2.BackEnd.PersonDBSet">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAI=</HashCode>
+      <FileName>Backend\PersonDBSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Praktinis2.RegistrationDBSet" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAAAAACAAAAAAAAEABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Backend\RegistrationDBSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Praktinis2.RegistrationDB" Collapsed="true">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAABAEAABABAAAQAAAAAAA=</HashCode>
+      <FileName>Backend\RegistrationDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,98 @@
+﻿<Window x:Class="Praktinis2.GetStartedAsPacientas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Praktinis2"
+        mc:Ignorable="d"
+        Title="GetStartedAsPacientas" Height="607.2" Width="1034">
+    <Grid Margin="0,0,3.2,-3.4">
+        <Label x:Name="GrabName" Content="" HorizontalAlignment="Left" Margin="239,29,0,0" VerticalAlignment="Top" Width="197" Height="40"/>
+        <Image Source="white_lens_flare_png_1511295[1].png" Stretch="Fill" Margin="0,0,-7,-2"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="23" Margin="283,241.8,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Visibility="Hidden"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="159" Margin="10,42,0,0" VerticalAlignment="Top" Width="203"/>
+        <TextBox x:Name="lblName" TextWrapping="Wrap" Text="TextBox" Margin="239,15,500,531" Background="Red" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" RenderTransformOrigin="0.48,0.919" FontSize="20"/>
+        <TextBox x:Name="lblSurname" TextWrapping="Wrap" Text="TextBox" Margin="239,74,500,467" Background="Red" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="20"/>
+        <TextBox x:Name="lblAge" TextWrapping="Wrap" Text="TextBox" Margin="239,158,676,383" Background="Red" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="20"/>
+        <TextBox x:Name="lblContact" TextWrapping="Wrap" Text="TextBox" Margin="209,242,500,301" Background="Red" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="20"/>
+        <TextBox x:Name="lblDescription" HorizontalAlignment="Left" Height="238" Margin="16,287,0,0" Background="Red" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="508" BorderBrush="{x:Null}" Foreground="Black" SelectionBrush="{x:Null}" FontSize="20"/>
+        <TextBox x:Name="lblStatus" HorizontalAlignment="Left" Height="40" Margin="16,242,0,0" Background="Red" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="181" BorderBrush="{x:Null}" Foreground="Black" SelectionBrush="{x:Null}" FontSize="23"/>
+        <Button Content="Modify Data&#xA;" HorizontalAlignment="Left" Margin="209,530,0,0" VerticalAlignment="Top" Width="315" Height="51" Click="Button_Click_3"/>
+        <Button Content="Log Out" HorizontalAlignment="Left" Margin="0,530,0,0" VerticalAlignment="Top" Width="150" Height="51" Click="Button_Click_2"/>
+        <Button Content="Upload" HorizontalAlignment="Left" Margin="10,206,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click" Height="31"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="118,206,0,0" VerticalAlignment="Top" Width="95" Click="Button_Click_1" Height="31"/>
+        <Label x:Name="label1" Content="Please Save Picture After Upload" HorizontalAlignment="Left" Margin="10,11,0,0" VerticalAlignment="Top" Width="203" Background="#FF795B5B" FontSize="13"/>
+        <Button Content="Registruotis Pas Savo Gydytoja" HorizontalAlignment="Left" Margin="551,530,-7,0" VerticalAlignment="Top" Width="480" Height="51" Click="Button_Click_4"/>
+        <TextBox x:Name="lblAge_Copy" TextWrapping="Wrap" Text="Metu" Margin="375,157,500,383" Background="Red" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="20"/>
+        <GridSplitter HorizontalAlignment="Left" Height="583" Margin="545,0,0,0" VerticalAlignment="Top" Width="6" Background="Red"/>
+
+        <Image x:Name="ImageGyd" HorizontalAlignment="Left" Height="155" Margin="820,65,0,0" VerticalAlignment="Top" Width="185"/>
+        <TextBox x:Name="lblNameGyd" TextWrapping="Wrap" Text="TextBox" Margin="556,55,362,486" Background="Red" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="16"/>
+        <TextBox x:Name="lblSurnameGyd" TextWrapping="Wrap" Text="TextBox" Margin="667,55,230,486" Background="Red" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="16"/>
+        <TextBox x:Name="lblAgeGyd" TextWrapping="Wrap" Text="TextBox" Margin="556,100,384,428" Background="Red" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="16" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="53" Width="84"/>
+        <TextBox x:Name="lblContactGyd" TextWrapping="Wrap" Text="TextBox" Margin="556,158,230,393" Background="Red" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="16"/>
+        <TextBox x:Name="lblDescriptionGyd" HorizontalAlignment="Left" Height="36" Margin="556,192,0,0" Background="Red" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="237" BorderBrush="{x:Null}" Foreground="Black" SelectionBrush="{x:Null}" RenderTransformOrigin="0.5,0.5" FontSize="16">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.588"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.39"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="lblStatusGydTuscias" HorizontalAlignment="Center" Margin="551,1,0,531" Background="Red" TextWrapping="Wrap" Width="473" BorderBrush="{x:Null}" Foreground="Black" SelectionBrush="{x:Null}" FontSize="31" HorizontalContentAlignment="Center" Text="Jūsų Gydytojas"/>
+        <TextBox x:Name="lblAge_Copy1" TextWrapping="Wrap" Text="Metu" Margin="645,100,230,428" Background="Red" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="16" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="53"/>
+        <Calendar x:Name="Calendar1" HorizontalAlignment="Left" Margin="820,225,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="DataPasirinkimas" Content="Rinktis" HorizontalAlignment="Left" VerticalAlignment="Top" Width="178" Margin="820,459,0,0" Click="DataPasirinkimas_Click" Height="26"/>
+        <ListView x:Name="ListControl1" HorizontalAlignment="Left" Height="35" Margin="713,490,0,0" VerticalAlignment="Top" Width="301" SelectionChanged="ListControl1_SelectionChanged"/>
+        <TextBox x:Name="lblDescriptionGyd_Copy" HorizontalAlignment="Left" Height="28" Margin="557,490,0,0" Background="Red" TextWrapping="Wrap" Text="Apsilankymo Data:&#xD;&#xA;" VerticalAlignment="Top" Width="146" BorderBrush="{x:Null}" Foreground="Black" SelectionBrush="{x:Null}" RenderTransformOrigin="0.5,0.5" TextChanged="lblDescriptionGyd_Copy_TextChanged">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="9.663"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="1.83"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="Po Registravimo&#xA;Pakeisti Apsilankymo&#xA;Data Negalesi, Del&#xD;&#xA;Neatvykimo Inf. Mus&#xD;&#xA;Nurodytu Tel. NR." Margin="556,233,228,0" VerticalAlignment="Top" Height="181" FontSize="25" FontStyle="Oblique" Foreground="Red" Background="#FF93C9E0"/>
+        <TextBox x:Name="lblDescriptionGyd_Copy1" HorizontalAlignment="Left" Height="26" Margin="558,430,0,0" Background="Red" TextWrapping="Wrap" Text="Darbo laikas 8:00-16:00 Pasirink:" VerticalAlignment="Top" Width="251" BorderBrush="{x:Null}" Foreground="Black" SelectionBrush="{x:Null}" RenderTransformOrigin="0.5,0.5" FontSize="16">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.588"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.39"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="lblDescriptionGyd_Copy2" HorizontalAlignment="Left" Height="30" Margin="822,397,0,0" Background="Red" TextWrapping="Wrap" Text="Ivesk Atvykimo Laika." VerticalAlignment="Top" Width="169" BorderBrush="{x:Null}" Foreground="Black" SelectionBrush="{x:Null}" RenderTransformOrigin="0.5,0.5" FontSize="16">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.588"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.39"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <ComboBox x:Name="ControlCombo" HorizontalAlignment="Left" Margin="820,430,0,0" VerticalAlignment="Top" Width="178" Height="24" SelectionChanged="ComboBox_SelectionChanged" SelectedIndex="0">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FF97FF24" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ListBoxItem x:Name="ListBoxTime" Content="8:30"/>
+            <ListBoxItem Content="9:30" Background="{x:Null}"/>
+            <ListBoxItem Content="10:30"/>
+            <ListBoxItem Content="11:30"/>
+            <ListBoxItem Content="12:30"/>
+            <ListBoxItem Content="13:30"/>
+            <ListBoxItem Content="14:30"/>
+            <ListBoxItem Content="15:30"/>
+        </ComboBox>
+
+    </Grid>
+</Window>
